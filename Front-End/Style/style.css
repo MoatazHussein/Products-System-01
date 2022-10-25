@@ -1,0 +1,135 @@
+.headStyle {
+  display: grid;
+  grid-template-columns: minmax(200px, 73%) minmax(80px, 6%) minmax(100px, 11%);
+  grid-gap: 10px;
+  background-color: #bac1c7;
+  padding: 10px;
+  border-bottom: 2px solid #3e4546;
+}
+
+.headStyleTitle {
+  padding-left: 7%;
+}
+.buttonsArea {
+  background-color: rgb(107, 107, 224);
+  border: 2px solid blue;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  padding-top: 13px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+head {
+  display: block;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  border-color: white;
+  padding-left: 4%;
+  margin: 1%;
+}
+
+.box {
+  width: 15%;
+  min-height: 200px;
+  word-break: break-all;
+  hyphens: auto;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 2% auto;
+  padding: 2.5%;
+  float: none;
+  border: 2px solid #5cc5d8;
+  background-color: #b0dce4;
+}
+
+.formShape {
+  width: 120px;
+  border-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.form-control {
+  width: 100px;
+  display: inline-block;
+}
+
+.formShape {
+  width: 1280px;
+  border-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #e3e9eb;
+
+  padding: 5px;
+  border-top: 2px solid #3e4546;
+  z-index: 3;
+}
+
+.delete-checkbox {
+  position: relative;
+  top: 2%;
+  right: 40%;
+  background-color: rgba(92, 92, 92, 0.4);
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+}
+
+.submitBtn {
+  background-color: rgb(107, 107, 224);
+  border: 2px solid blue;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px 8px;
+  border-radius: 0.5em;
+  border: 2px solid #ccc;
+  border-width: medium;
+}
+
+#productType {
+  padding: 4px 4px;
+  border-radius: 0.5em;
+  border: 2px solid #ccc;
+  border-width: medium;
+}
+
+.errorMSG {
+  background-color: #ffffff;
+  color: red;
+  margin-left: 30%;
+  position: relative;
+  bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.errorMSG:after {
+  content: "\200b";
+}
